@@ -1,0 +1,165 @@
+@media(max-width:1200px) {
+    .header__bg {
+        width: 100%;
+    }
+
+    .app__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .app__right_cards {
+        margin-top: 30px;
+    }
+
+    .header__content {
+        padding-top: 0;
+        height: 600px;
+    }
+
+    .header__img {
+        width: 500px;
+    }
+
+    .header__content_title {
+        font-size: 47px;
+    }
+}
+
+@media(max-width:992px) {
+    .header__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__content_title {
+        margin-top: 80px;
+    }
+
+    .header__content_market {
+        bottom: -20%;
+    }
+
+    .course {
+        text-align: center;
+        justify-content: center;
+        padding-top: 180px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .course__left {
+        margin-top: 40px;
+    }
+
+    .course__left img {
+        width: 450px;
+    }
+
+    .bestcard {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bestcard__right {
+        margin-top: 40px;
+    }
+
+    .bestcard__right img {
+        width: 450px;
+    }
+
+    .credit__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav__right {
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 20px;
+    }
+
+    .header__content_title {
+        text-align: center;
+    }
+}
+
+
+@media(max-width:576px) {
+    .course__left img,
+    .bestcard__right img {
+        width: 350px;
+    }
+    .header__img{
+        width: 100%;
+    }
+    .header__content_market{
+        bottom: -30%;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+        height: initial;
+        
+    }
+    .course{
+        padding-top: 250px;
+    }
+    .app__left_card img {
+        width: 250px;  
+    }
+    .app__cards{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .app__right_card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .app__right_card:last-of-type{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .app__market{
+        flex-direction: column;
+    }
+    .nav__list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .course__right_card-txt{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:375px){
+    .course__left img,
+    .bestcard__right img{
+        width: 100%;
+    }
+     .bestcard__left-txt{
+        font-size: 16px;
+     }   
+    .bestcard__left_btn:last-of-type{
+        margin-top: 20px;
+        margin-left: initial;
+        display: inline-block;
+    }
+    
+    .app__left_card-title,
+    .app__right_card-title{
+        font-size: 22px;
+    }
+    .app__right_card,
+    .app__right_card:last-of-type{
+        padding: 25px 35px;
+        gap: 30px;
+    }
+}
+
